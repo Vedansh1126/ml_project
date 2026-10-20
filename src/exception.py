@@ -1,5 +1,6 @@
 
 import sys
+import src.logger as logging    # To log the error message in the log file without this import, the error message will not be logged in the log file
 
 def error_message_detail(error, error_detail: sys):
     _, _, exc_tb = error_detail.exc_info()
